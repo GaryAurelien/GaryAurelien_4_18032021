@@ -549,13 +549,18 @@ a:hover {
     font-size : 16px;
     font-weight : 700;
     }
-    .twitter_social
-    .facebook_social
-    .dribble_social
-    .instagram_social{
+
+.col-sm-3 {
+
+}
+
+    .twitter_social, .facebook_social, .dribble_social, .instagram_social{
     max-width : 400px;
     margin : auto auto auto auto;
+    width: 166px;
+    height: 30px;
     }
+
     h2 {
     font-size : 22px;
     line-height : 1.4em;
