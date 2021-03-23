@@ -372,7 +372,7 @@ a:hover {
     box-shadow : 0 1px 3px rgb(0, 0, 1, 0.25), 0 1px 0 0 rgb(255, 255, 255, 0.15) inset;
     }
     .icon-md {
-    font-size : 30px !important ;
+    font-size : 25px !important ;
     margin-left : 25px;
     margin-right : 25px;
     }
@@ -550,11 +550,7 @@ a:hover {
     font-weight : 700;
     }
 
-.col-sm-3 {
-
-}
-
-    .twitter_social, .facebook_social, .dribble_social, .instagram_social{
+    a.twitter_social, a.facebook_social, a.dribble_social, a.instagram_social{
     max-width : 400px;
     margin : auto auto auto auto;
     width: 166px;
