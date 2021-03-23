@@ -241,7 +241,8 @@ a:hover {
 .navbar-nav .open .dropdown-menu > li > a {
     text-align : inherit;
 }
-    
+   
+
 .nav > li a:hover, .nav > li a:focus {
     background : transparent;
 }
@@ -550,16 +551,12 @@ a:hover {
     font-weight : 700;
     }
 
-.container-social {
-    height: auto;
-
-}
-
-.social {
-    
+    .twitter_social, .facebook_social, .dribble_social, .instagram_social{
+    max-width : 400px;
     margin : auto auto auto auto;
-    padding: 10px;
-}
+    width: 166px;
+    height: 30px;
+    }
 
     h2 {
     font-size : 22px;
@@ -677,7 +674,7 @@ a:hover {
     padding-right : 0;
     }
     }
-    @media (max-width: 992px) and (min-width: 768px) {
+    @media (max-width: 992px) and (min-width: 800px) {
     .navbar .nav {
     max-width : 80%;
     }
@@ -714,7 +711,7 @@ a:hover {
     padding : 0 20px;
     }
     }
-    @media (max-width: 767px) {
+    @media (max-width: 800px) {
     .page-container {
     overflow-x : hidden;
     position : relative;
@@ -729,7 +726,6 @@ a:hover {
     .navbar .nav {
     padding-top : 0;
     border-top : 1px solid rgb(0, 0, 0, 0.2);
-    float : none !important ;
     }
     .navbar.row {
     margin-left : 0;
@@ -841,7 +837,7 @@ a:hover {
     padding-right : 0;
     }
     }
-    @media (max-width: 767px) {
+    @media (max-width: 800px) {
     .bloc-mob-center-text {
     text-align : center;
     }
