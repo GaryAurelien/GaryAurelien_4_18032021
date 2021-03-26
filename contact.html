@@ -82,32 +82,34 @@
 					<div class="container bloc-lg">
 						<div class="row">
 							<div class="col-sm-6">
-								<form id="form_1" novalidate success-msg="Votre message a été envoyé."
+								<h1>Contact</h1>
+								<form novalidate success-msg="Votre message a été envoyé."
 									fail-msg="Désolé, il semble que notre serveur de messagerie ne répond pas, Désolé pour le désagrément!">
 									<div class="form-group">
 										<label>
-											Nom
+											<span>Nom</span>
 										</label>
 										<input aria-labelledby="name" placeholder="Dupont..." id="name"
 											class="form-control" required />
 									</div>
 									<div class="form-group">
 										<label>
-											Adresse email
+											<span>Adresse email</span>
 										</label>
 										<input aria-labelledby="email" placeholder="exemple@gmail.com" id="email"
 											class="form-control" type="email" required />
 									</div>
 									<div class="form-group">
 										<label>
-											Comment nous avez-vous connu ?
+											<span>Comment nous avez-vous connu ?</span>
 										</label>
 										<input aria-labelledby="comment" placeholder="Web..." class="form-control"
 											type="text" required id="comment" />
 									</div>
 									<div class="form-group">
 										<label>
-											Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+											<span>Brief de votre projet (Ajoutez autant de détails que
+												nécessaire)<br></span>
 										</label><textarea aria-labelledby="message" placeholder="Voici mon projet..."
 											id="message" class="form-control" rows="4" cols="50" required></textarea>
 									</div>
@@ -128,11 +130,11 @@
 					</div>
 				</div>
 				<!-- bloc-7 END -->
+				<!-- ScrollToTop Button -->
+				<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+						class="fa fa-chevron-up"></span></a>
+				<!-- ScrollToTop Button END-->
 			</section>
-			<!-- ScrollToTop Button -->
-			<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
-					class="fa fa-chevron-up"></span></a>
-			<!-- ScrollToTop Button END-->
 			<footer>
 				<!-- Footer - bloc-8 -->
 				<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
@@ -181,13 +183,11 @@
 						</div>
 					</div>
 				</div>
+				<!-- Footer - bloc-8 END -->
+			</footer>
+			<!-- Principal conteneur END -->
 		</div>
-		<!-- Footer - bloc-8 END -->
-		</footer>
-		</div>
-		<!-- Principal conteneur END -->
 	</main>
-
 </body>
 
 </html>
